@@ -1,0 +1,57 @@
+/* Header */
+h1{
+    font-family: 'Courier New', monospace, 'Arial';
+    font-size: 50px;
+    padding: 1.5% 1.5% .25% 1.5%;
+    background-color: #8d9db6;
+    color: black;
+    opacity: 0.75;
+}
+
+
+
+/* Navigation Bar */
+ .mainnav {
+    width: 100%;
+    background-color: #8d9db6;
+    overflow: auto;
+  }
+
+  /* links for nav*/
+  .mainnav a {
+    float: left;
+    text-align: center;
+    padding: 2%;
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', monospace, 'Arial';
+    font-size: 25px;
+  }
+
+  .mainnav a:hover {
+    padding-top: 2.5%;
+    padding-bottom: 1.5%;
+    color:white;
+  }
+
+  .mainnav .current {
+    text-decoration: underline overline;
+    text-underline-offset: 8%;
+    text-decoration-style: dotted;
+    color:white;
+  } 
+
+  /* navbar for mobile */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  /* UX images scaling */
+
+  .responsive {
+    width: 25%;
+    height: auto;
+  }
