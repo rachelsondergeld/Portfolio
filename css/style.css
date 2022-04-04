@@ -9,8 +9,9 @@ h1{
 }
 
 
-
 /* Navigation Bar */
+/* used w3 schools as a reference for this section
+but mine is different */
  .mainnav {
     width: 100%;
     background-color: #8d9db6;
@@ -41,22 +42,17 @@ h1{
     color:white;
   } 
 
-  /* navbar for mobile */
+  /* navbar for mobile - using this from w3 schools*/
+
   @media screen and (max-width: 500px) {
     .navbar a {
       float: none;
       display: block;
     }
-  }
+  } 
 
-  /* UX images scaling */
-
-  .responsive {
-    width: 100%;
-    height: auto;
-  }
 
   .headshot{
     width: 100%;
     height: auto;
-  }
+  } 
