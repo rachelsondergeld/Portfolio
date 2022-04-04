@@ -52,6 +52,11 @@ h1{
   /* UX images scaling */
 
   .responsive {
-    width: 25%;
+    width: 100%;
+    height: auto;
+  }
+
+  .headshot{
+    width: 100%;
     height: auto;
   }
